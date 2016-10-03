@@ -1,0 +1,21 @@
+name 'gzip'
+org 'amylum'
+
+licenses 'COPYING'
+
+configure_flags(
+  prefix: '/usr',
+)
+
+harden
+
+build do
+  run './bootstrap'
+  configure
+  make
+  install
+end
+
+test do
+  run 'gzip --version'
+end
