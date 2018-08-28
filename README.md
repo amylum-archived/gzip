@@ -1,7 +1,7 @@
 gzip
 ==========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/gzip/master.svg)](https://circleci.com/gh/amylum/gzip)
+[![Build Status](https://img.shields.io/travis/com/amylum/gzip.svg)](https://travis-ci.com/amylum/gzip)
 [![GitHub release](https://img.shields.io/github/release/amylum/gzip.svg)](https://github.com/amylum/gzip/releases)
 [![GPL3 Licensed](http://img.shields.io/badge/license-GPL3-green.svg)](https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3))
 
