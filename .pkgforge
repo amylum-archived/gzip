@@ -7,7 +7,10 @@ configure_flags(
   prefix: '/usr',
 )
 
-cflags ['-Wno-error=implicit-fallthrough']
+cflags([
+  '-Wno-error=implicit-fallthrough',
+  '-Wno-error=abi'
+])
 harden
 
 build do
